@@ -1024,14 +1024,14 @@ function renderContact(){
         <div class="contact-card">
           <div class="ic">${ICON.whatsapp}</div>
           <h4>WhatsApp</h4>
-          <div class="val">+92 343 4058097</div>
-          <a href="https://wa.me/923434058097?text=${encodeURIComponent("Hello LS Exporters, I'd like to discuss a garment manufacturing inquiry.")}" target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">WhatsApp</a>
+          <div class="val">+923137265726</div>
+          <a href="https://wa.me/923137265726?text=${encodeURIComponent("Hello LS Exporters, I'd like to discuss a garment manufacturing inquiry.")}" target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">WhatsApp</a>
         </div>
         <div class="contact-card">
           <div class="ic">${ICON.phone}</div>
           <h4>Phone</h4>
-          <div class="val">+92 343 4058097</div>
-          <a href="tel:+923434058097" class="btn btn-outline btn-sm btn-block">Call Now</a>
+          <div class="val">+92 3137265726</div>
+          <a href="tel:+923137265726" class="btn btn-outline btn-sm btn-block">Call Now</a>
         </div>
       </div>
 
@@ -1119,7 +1119,7 @@ function bindDynamic(){
     waDetail.addEventListener('click', ()=>{
       const p = prodById(waDetail.dataset.pid);
       const msg = `Hello LS Exporters, I'm interested in ${p.name} (${p.id}). Could you share more details and pricing for a bulk order?`;
-      window.open('https://wa.me/923434058097?text=' + encodeURIComponent(msg), '_blank');
+      window.open('https://wa.me/923137265726?text=' + encodeURIComponent(msg), '_blank');
     });
   }
 
@@ -1185,7 +1185,7 @@ function bindDynamic(){
             <div class="ref">Reference: ${ref}</div>
             <div style="margin-top:26px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
               <a href="#/products" data-link class="btn btn-outline">Continue Browsing</a>
-              <a href="https://wa.me/923434058097?text=${encodeURIComponent('Reference '+ref+': ')}" target="_blank" rel="noopener" class="btn btn-primary">${ICON.whatsapp} Follow Up on WhatsApp</a>
+              <a href="https://wa.me/923137265726?text=${encodeURIComponent('Reference '+ref+': ')}" target="_blank" rel="noopener" class="btn btn-primary">${ICON.whatsapp} Follow Up on WhatsApp</a>
             </div>
           </div>`;
         rebindLinks();
@@ -1193,7 +1193,7 @@ function bindDynamic(){
     });
 
     document.getElementById('waSubmit').addEventListener('click', ()=>{
-      window.open('https://wa.me/923434058097?text=' + buildWaMessage(), '_blank');
+      window.open('https://wa.me/923137265726?text=' + buildWaMessage(), '_blank');
     });
   }
 
